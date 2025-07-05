@@ -1,0 +1,208 @@
+.contenedor {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background-color: rgb(37, 30, 54)
+}
+.all {
+  width: 940px;
+  height: 510px;
+  border: 2px solid rgb(3, 3, 37);
+  border-radius: 6px;
+  background: #f5d4cd;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 0 rgb(3, 3, 37);;
+  overflow: hidden;
+}
+
+.tabs {
+  display: flex;
+  height: 28px;
+  background: rgb(142, 116, 167);
+  border-bottom: 2px solid rgb(3, 3, 37);;
+  gap: 8px;
+}
+
+.tab {
+  width: 80px;
+  height: 100%;
+  background: #fdf5dc;
+  border: 2px solid rgb(3, 3, 37);;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  margin-right: -10px;
+}
+
+.tab.act {
+  background: rgb(142, 116, 167);
+}
+
+.navbar {
+  background: #f5d4cd;
+  display: flex;
+  align-items: center;
+  padding: 5px 8px;
+  gap: 8px;
+  border-bottom: 2px solid rgb(3, 3, 37);;
+}
+
+.nav-buttons .btn {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(3, 3, 37);;
+  background: rgb(142, 116, 167);
+  display: inline-block;
+  margin-right: 4px;
+  border-radius: 3px;
+}
+
+.arrow-left::before {
+  content: "←";
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  line-height: 12px;
+}
+
+.arrow-right::before {
+  content: "→";
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  line-height: 12px;
+}
+
+.reload::before {
+  content: "⭮";
+  font-size: 12px;
+  display: block;
+  text-align: center;
+  line-height: 12px;
+}
+
+.search-bar {
+  width: 80%;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  background: #fff3dc;
+  border: 2px solid rgb(3, 3, 37);;
+  gap: 1rem;
+}
+
+.search-icon {
+  background: rgb(142, 116, 167);
+  padding: 0 6px;
+  border-right: 2px solid rgb(3, 3, 37);;
+}
+
+.window-buttons {
+  display: flex;
+  margin-left: auto;
+  gap: 4px;
+}
+
+.window-buttons .small {
+  background: #fdf5dc;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(3, 3, 37);;
+}
+
+.window-buttons .close {
+  background: rgb(142, 116, 167);
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(3, 3, 37);;
+}
+
+.page-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.scrollbar {
+  width: 28px;
+  background: #fff3dc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 2px solid rgb(3, 3, 37);;
+  padding: 4px 0;
+}
+
+.scrollbar .arrow {
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #4c2600;
+  line-height: 16px;
+}
+
+.scrollbar .arrow.up::before {
+  content: "↑";
+}
+
+.scrollbar .arrow.down::before {
+  content: "↓";
+}
+
+.scrollbar .track {
+  flex-grow: 1;
+  width: 8px;
+  background: #fff3dc;
+  border: 1px solid rgb(3, 3, 37);;
+  margin: 4px 0;
+  position: relative;
+}
+
+.scrollbar .thumb {
+  width: 6px;
+  height: 40px;
+  background: rgb(142, 116, 167);
+  position: absolute;
+  top: 20px;
+  left: 1px;
+  border-radius: 4px;
+}
+.material {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-content .material {
+    width: 100%;
+    height: 100%;
+    margin-left: -1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.material .next {
+    width: 600px;
+    height: 150px;
+    background-color: rgb(142, 116, 167);
+    border-radius: 10px;
+}
+.material p {
+    font-size: 40px;
+    color: rgb(3, 3, 37);;
+    font-family: "Ribeye";
+}
+.next img {
+    width: 150px;
+}
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

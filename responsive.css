@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  /* ----- INDEX.HTML ----- */
+  .all {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .search-bar {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .material p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .material .next {
+    width: 90%;
+    height: 100px;
+  }
+
+  .next img {
+    width: 80px;
+  }
+
+  .scrollbar {
+    display: none;
+  }
+}

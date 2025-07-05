@@ -1,0 +1,176 @@
+/* Estilos generales responsive */
+/* Computadoras desde 768 */
+@media screen and (max-width: 1366px)  {
+.pantalla {
+  background-color: blueviolet;
+
+    .more {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .Ims {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .Contenedor {
+        width: 60%;
+        height: 1000px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+    .G1 {
+        grid-column: 1/3;
+        height: 800px;
+    }
+    
+    .Contenedor .G {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .final {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+    }
+    
+    .izq, .der {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .section {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+/* Teléfonos hasta 767 */
+@media screen and (max-width: 768px) {
+  .pantalla {
+  background-color: rgb(43, 226, 98);
+}
+
+    .more .M1, .more .M3 {
+        width: 50%;
+    }
+
+    .more .M1 {
+        width: 100%;
+    }
+
+    .more .M2 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 5px 0;
+    }
+
+    .more .M3 {
+        margin: 10px;
+    }
+    
+    .redes {
+        padding: 100px 0;
+    }
+
+    .port {
+        height: 5%;
+        font-size: 10px;
+    }
+
+    .port p {
+        font-size: 30px;
+    }
+    
+
+    .G {
+        height: 200px;
+    }
+    
+    .section {
+        gap: 5px;
+    }
+    
+    .izq h1 {
+        font-size: 24px;
+    }
+    
+    .izq div {
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .der img {
+        width: 80%;
+    }
+
+    .port {
+        margin-top: 1%;
+    }
+
+    .Contenedor {
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    
+    .G1 {
+        grid-column: 1/3;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Ims {
+        width: 100%;
+        height: 700px;
+    }
+
+    .Contenedor, .G {
+        width: 100%;
+        height: 700px;
+        margin-top: 10px;
+    }
+
+    .sociales {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        gap: 4px;
+        font-size: 20px;
+    }
+
+    .sociales .N {
+        margin-left: 150px;
+        margin-top: -30px;
+        font-size: 20px;
+    }
+    
+    .section {
+        width: 100%;
+        height: 100px;
+    }
+
+    .final {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .izq, .der {
+        width: 90%;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        margin-top: -50px;
+    }
+    
+}
+
+}
