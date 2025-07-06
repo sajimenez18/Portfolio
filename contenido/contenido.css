@@ -90,6 +90,13 @@ a {
     justify-content: center;
     gap: 20px;
 }
+
+.sociales .numero {
+    position: absolute;
+    font-size: 10px;
+    margin-top: -5px;
+}
+
 .N1 {
     font-size: 10px;
     margin-top: -12px;
@@ -114,7 +121,7 @@ a {
 }
 .Contenedor {
     width: 1000px;
-    height: 1500px;
+    height: auto;
     background-color: azure;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -203,3 +210,4 @@ a {
     width: 100%;
     height: 500px;
 }
+
