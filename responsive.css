@@ -1,6 +1,7 @@
+/* Telefono */
 @media (max-width: 768px) {
-  /* ----- INDEX.HTML ----- */
-  .all {
+  body {
+    background-color: aqua;
     width: 95%;
     height: auto;
     flex-direction: column;
@@ -17,15 +18,11 @@
   }
 
   .material .next {
-    width: 90%;
+    width: 50%;
     height: 100px;
   }
 
   .next img {
-    width: 80px;
-  }
-
-  .scrollbar {
-    display: none;
+    width: 70px;
   }
 }
