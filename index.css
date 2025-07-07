@@ -5,24 +5,24 @@
   justify-content: center;
 }
 body {
-  background-color: rgb(37, 30, 54)
+  background-color: rgb(37, 30, 54);
 }
 .all {
   width: 940px;
   height: 510px;
-  border: 2px solid rgb(3, 3, 37);
+  border: 2px solid rgb(246, 92, 92);
   border-radius: 6px;
   background: #f5d4cd;
   display: flex;
   flex-direction: column;
-  box-shadow: 2px 2px 0 rgb(3, 3, 37);;
+  box-shadow: 2px 2px 0 rgb(207, 56, 56);
   overflow: hidden;
 }
 
 .tabs {
   display: flex;
   height: 28px;
-  background: rgb(142, 116, 167);
+  background: rgb(246, 92, 92);
   border-bottom: 2px solid rgb(3, 3, 37);;
   gap: 8px;
 }
@@ -38,7 +38,7 @@ body {
 }
 
 .tab.act {
-  background: rgb(142, 116, 167);
+  background: rgb(246, 92, 92);
 }
 
 .navbar {
@@ -54,7 +54,7 @@ body {
   width: 16px;
   height: 16px;
   border: 2px solid rgb(3, 3, 37);;
-  background: rgb(142, 116, 167);
+  background: rgb(246, 92, 92);
   display: inline-block;
   margin-right: 4px;
   border-radius: 3px;
@@ -95,7 +95,7 @@ body {
 }
 
 .search-icon {
-  background: rgb(142, 116, 167);
+  background: rgb(246, 92, 92);
   padding: 0 6px;
   border-right: 2px solid rgb(3, 3, 37);;
 }
@@ -114,10 +114,10 @@ body {
 }
 
 .window-buttons .close {
-  background: rgb(142, 116, 167);
+  background: rgb(246, 92, 92);
   width: 16px;
   height: 16px;
-  border: 2px solid rgb(3, 3, 37);;
+  border: 2px solid rgb(3, 3, 37);
 }
 
 .page-content {
@@ -133,7 +133,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-left: 2px solid rgb(3, 3, 37);;
+  border-left: 2px solidrgb(246, 92, 92);
   padding: 4px 0;
 }
 
@@ -158,7 +158,7 @@ body {
   flex-grow: 1;
   width: 8px;
   background: #fff3dc;
-  border: 1px solid rgb(3, 3, 37);;
+  border: 1px solid rgb(3, 3, 37);
   margin: 4px 0;
   position: relative;
 }
@@ -166,7 +166,7 @@ body {
 .scrollbar .thumb {
   width: 6px;
   height: 40px;
-  background: rgb(142, 116, 167);
+  background: rgb(246, 92, 92);
   position: absolute;
   top: 20px;
   left: 1px;
@@ -189,12 +189,12 @@ body {
 .material .next {
     width: 600px;
     height: 150px;
-    background-color: rgb(142, 116, 167);
+    background-color: rgb(246, 92, 92);
     border-radius: 10px;
 }
 .material p {
     font-size: 40px;
-    color: rgb(3, 3, 37);;
+    color: rgb(246, 92, 92);
     font-family: "Ribeye";
 }
 .next img {

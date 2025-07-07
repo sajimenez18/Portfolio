@@ -2,8 +2,6 @@
 /* Computadoras desde 768 */
 @media screen and (max-width: 1366px)  {
 .pantalla {
-  background-color: blueviolet;
-
     .more {
         flex-wrap: wrap;
         height: auto;

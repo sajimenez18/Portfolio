@@ -2,7 +2,6 @@
     width: 100%;
     height: 350px;
     background-color: rgb(37, 30, 54);
-    overflow: hidden; /* Evita que los hijos desborden */
 }
 
 .more {
@@ -11,13 +10,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row; /* Asegura que sea horizontal en desktop */
+    flex-direction: row;
+    /* Asegura que sea horizontal en desktop */
 }
+
 .more div {
     width: 300px;
     height: 50px;
     border-radius: 5px;
 }
+
 .more .M1 {
     display: flex;
     flex-direction: row;
@@ -28,14 +30,17 @@
     font-weight: bold;
     color: white;
 }
+
 .M1 img {
     width: 50px;
 }
+
 .M2 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
+
 .more .M2 {
     width: 650px;
     height: 50px;
@@ -43,8 +48,9 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .more .M3 {
-    width: 300px;
+    width: 150px;
     height: 50px;
     display: flex;
     align-items: center;
@@ -53,10 +59,12 @@
     border: 1px solid white;
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: white;
 }
+
 .port {
     display: flex;
     flex-direction: column;
@@ -64,13 +72,16 @@ a {
     justify-content: center;
     color: white;
 }
+
 .port p {
     font-weight: bolder;
     font-size: 80px;
 }
+
 .port span {
     color: rgb(181, 186, 194);
 }
+
 .redes {
     width: 100%;
     height: 100px;
@@ -78,10 +89,12 @@ a {
     align-items: center;
     justify-content: center;
 }
+
 .sociales a {
     text-decoration: none;
-    color: gray;
+    color: rgb(129, 132, 137);
 }
+
 .sociales {
     width: 800px;
     height: 50px;
@@ -102,6 +115,7 @@ a {
     margin-top: -12px;
     margin-left: -15px;
 }
+
 .M3 :hover {
     display: flex;
     align-items: center;
@@ -112,6 +126,7 @@ a {
     background-color: rgb(211, 160, 160);
     border-radius: 5px;
 }
+
 .Ims {
     width: 100%;
     height: 1500px;
@@ -119,78 +134,91 @@ a {
     justify-content: center;
     margin-bottom: 30px;
 }
+
 .Contenedor {
-    width: 1000px;
+    width: 100px;
     height: auto;
-    background-color: azure;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3,1fr);
     gap: 30px;
 }
+
 .G {
     border: 1px solid black;
     margin: 5px;
+    width: 100%;
+    height: auto;
 }
+
 .G1 {
     background-color: aqua;
     grid-column: 1/3;
     height: 700px;
 }
+
 .section {
     width: 100%;
-    height: 300px;
-    background-color: blue;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
+
 .S {
     background-color: white;
-    color: rgb(0, 0, 0);
+    color: rgb(17, 6, 6);
     width: 50px;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 .S-1 {
-    background-color: red;
+    background-color: rgb(246, 92, 92);
     color: white;
 }
+
 .S:hover {
     transition: 1s;
     color: white;
-    background-color: red;
+    background-color: rgb(246, 92, 92);
 }
+
 .S-1:hover {
     transition: 1s;
     background-color: white;
     color: black;
 }
+
 .final {
     width: 100%;
     height: 800px;
-    background-color: blueviolet;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    background-color: rgb(246, 92, 92);
 }
-.izq, .der {
+
+.izq,
+.der {
     width: 500px;
     height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .izq h1 {
     font-size: 40px;
-    margin: 40px;
+    margin: 20px;
 }
+
 .izq div {
     width: 300px;
     background-color: white;
@@ -203,11 +231,135 @@ a {
     color: brown;
     border-radius: 10px;
 }
+
 .der img {
     width: 300px;
 }
+
 .fin {
     width: 100%;
     height: 500px;
+}
+
+.fondo {
+    background-color: #f5d4cd;
+}
+
+.mas {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.btn {
+    background-color: white;
+    color: rgb(31, 14, 3);
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.option {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.boton {
+    background-color: palevioletred;
+    width: 90px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.textoo {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.G1 {
+    position: relative;
+}
+
+.mas {
+    position: absolute;
+}
+
+.G2 {
+  background-image: url("../assets/duck.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 220px; /* o lo que necesites */
+  text-decoration: none; /* para que no se subraye el contenido */
+}
+
+.G3 {
+  background-image: url("../assets/cat.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 220px; /* o lo que necesites */
+  text-decoration: none; /* para que no se subraye el contenido */
+}
+
+.G4 {
+  background-image: url("../assets/dino.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 220px; /* o lo que necesites */
+  text-decoration: none; /* para que no se subraye el contenido */
+}
+
+.G5 {
+  background-image: url("../assets/pio.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 220px; /* o lo que necesites */
+  text-decoration: none; /* para que no se subraye el contenido */
+}
+
+.option {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  padding: 10px;
 }
 
