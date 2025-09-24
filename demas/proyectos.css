@@ -44,6 +44,37 @@ header p {
     width: 100%;
 }
 
+.uno {
+    background-color: #3498db;
+}
+
+.dos {
+    background-color: #e74c3c;
+}
+
+.tres {
+    background-color: #2ecc71;
+}
+
+.cuatro {
+    background-color: #f39c12;
+}
+
+.cinco {
+    background-color: #1abc9c;
+}
+
+.seis {
+    background-color: #f4e459;
+}
+
+.siete {
+    background-color: #b551da;
+}
+
+.ocho {
+    background-color: #3498db;
+}
 .project h3 {
     margin: 1rem 1rem 0.5rem;
     color: #2c3e50;
@@ -82,3 +113,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+

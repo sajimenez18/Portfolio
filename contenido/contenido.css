@@ -311,58 +311,67 @@ a {
 }
 
 .G2 {
-  background-image: url("../assets/duck.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 220px; /* o lo que necesites */
-  text-decoration: none; /* para que no se subraye el contenido */
+    background-image: url("../assets/duck.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 220px;
+    /* o lo que necesites */
+    text-decoration: none;
+    /* para que no se subraye el contenido */
 }
 
 .G3 {
-  background-image: url("../assets/cat.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 220px; /* o lo que necesites */
-  text-decoration: none; /* para que no se subraye el contenido */
+    background-image: url("../assets/cat.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 220px;
+    /* o lo que necesites */
+    text-decoration: none;
+    /* para que no se subraye el contenido */
 }
 
 .G4 {
-  background-image: url("../assets/dino.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 220px; /* o lo que necesites */
-  text-decoration: none; /* para que no se subraye el contenido */
+    background-image: url("../assets/dino.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 220px;
+    /* o lo que necesites */
+    text-decoration: none;
+    /* para que no se subraye el contenido */
 }
 
 .G5 {
-  background-image: url("../assets/pio.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 220px; /* o lo que necesites */
-  text-decoration: none; /* para que no se subraye el contenido */
+    background-image: url("../assets/pio.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 220px;
+    /* o lo que necesites */
+    text-decoration: none;
+    /* para que no se subraye el contenido */
 }
 
 .option {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  color: white;
-  padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
 }
 
-.G4 .textoo, .G5 .textoo{
+.G4 .textoo,
+.G5 .textoo {
     color: rgb(102, 21, 21);
 }
